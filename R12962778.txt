@@ -1,0 +1,269 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12962778
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           County Business Patterns 2018
+Dataset:          Sectors by NAICS
+Tables:
+
+      1. Number of Employees: Total for All Sectors
+         Universe:  none
+         Name:      NAICS_00
+         Variables:
+            T001_001:   All Establishments:
+            T001_005:      1 to 4 Employees
+            T001_010:      5 to 9 Employees
+            T001_004:      10 to 19 Employees
+            T001_006:      20 to 49 Employees
+            T001_009:      50 to 99 Employees
+            T001_003:      100 to 249 Employees
+            T001_007:      250 to 499 Employees
+            T001_008:      500 to 999 Employees
+            T001_002:      1,000 Employees or More
+
+
+      2. Number of Establishments: All Sectors
+         Universe:  none
+         Name:      T1
+         Variables:
+            T002_001:   All Establishments:
+            T002_005:      1 to 4 Employees
+            T002_010:      5 to 9 Employees
+            T002_004:      10 to 19 Employees
+            T002_006:      20 to 49 Employees
+            T002_009:      50 to 99 Employees
+            T002_003:      100 to 249 Employees
+            T002_007:      250 to 499 Employees
+            T002_008:      500 to 999 Employees
+            T002_002:      1,000 Employees or More
+
+
+      3. Flag: Total for All Sectors
+         Universe:  none
+         Name:      T600
+         Variables:
+            T600_001:   All Establishments:
+            T600_002:   1 to 4 Employees
+            T600_003:   5 to 9 Employees
+            T600_004:   10 to 19 Employees
+            T600_005:   20 to 49 Employees
+            T600_006:   50 to 99 Employees
+            T600_007:   100 to 249 Employees
+            T600_008:   250 to 499 Employees
+            T600_009:   500 to 999 Employees
+            T600_010:   1,000 Employees or More
+
+
+      4. Total Annual Payroll ($1,000): All Sectors
+         Universe:  none
+         Name:      T2
+         Variables:
+            T003_001:   All Establishments:
+            T003_005:      1 to 4 Employees
+            T003_010:      5 to 9 Employees
+            T003_004:      10 to 19 Employees
+            T003_006:      20 to 49 Employees
+            T003_009:      50 to 99 Employees
+            T003_003:      100 to 249 Employees
+            T003_007:      250 to 499 Employees
+            T003_008:      500 to 999 Employees
+            T003_002:      1,000 Employees or More
+
+
+      5. Flag Total Annual Payroll: Total for All Sectors
+         Universe:  none
+         Name:      T800
+         Variables:
+            T800_001:   All Establishments:
+            T800_002:   1 to 4 Employees
+            T800_003:   5 to 9 Employees
+            T800_004:   10 to 19 Employees
+            T800_005:   20 to 49 Employees
+            T800_006:   50 to 99 Employees
+            T800_007:   100 to 249 Employees
+            T800_008:   250 to 499 Employees
+            T800_009:   500 to 999 Employees
+            T800_010:   1,000 Employees or More
+
+
+      6. Average Employee Wage: All Sectors
+         Universe:  none
+         Name:      T1200
+         Variables:
+            T1200_001:   All Establishments:
+            T1200_002:      1 to 4 Employees
+            T1200_003:      5 to 9 Employees
+            T1200_004:      10 to 19 Employees
+            T1200_005:      20 to 49 Employees
+            T1200_006:      50 to 99 Employees
+            T1200_007:      100 to 249 Employees
+            T1200_008:      250 to 499 Employees
+            T1200_009:      500 to 999 Employees
+            T1200_010:      1,000 Employees or More
+
+
+      7. Total First Quarter Payroll ($1,000): All Sectors
+         Universe:  none
+         Name:      T3
+         Variables:
+            T004_001:   All Establishments:
+            T004_005:      1 to 4 Employees
+            T004_010:      5 to 9 Employees
+            T004_004:      10 to 19 Employees
+            T004_006:      20 to 49 Employees
+            T004_009:      50 to 99 Employees
+            T004_003:      100 to 249 Employees
+            T004_007:      250 to 499 Employees
+            T004_008:      500 to 999 Employees
+            T004_002:      1,000 Employees or More
+
+
+      8. Flag Total First Quarter Payroll: Total for All Sectors
+         Universe:  none
+         Name:      T1000
+         Variables:
+            T1000_001:   All Establishments:
+            T1000_002:   1 to 4 Employees
+            T1000_003:   5 to 9 Employees
+            T1000_004:   10 to 19 Employees
+            T1000_005:   20 to 49 Employees
+            T1000_006:   50 to 99 Employees
+            T1000_007:   100 to 249 Employees
+            T1000_008:   250 to 499 Employees
+            T1000_009:   500 to 999 Employees
+            T1000_010:   1,000 Employees or More
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      NAME:           Name of Area
+      QNAME:          Qualifying Name
+      NATION:         Nation
+      STATE:          State
+      COUNTY:         County
+      CD:             Congressional District (116th)
+      CSA:            Combined Statistical Area
+      MSAMSA:         Metropolitan Statistical Area/Micropolitan Statistical Area
+      T001_001:       Number of Employees for All Establishments
+      T001_005:       Number of Employees for Establishments with 1 to 4 Employees
+      T001_010:       Number of Employees for Establishments with 5 to 9 Employees
+      T001_004:       Number of Employees for Establishments with 10 to 19 Employees
+      T001_006:       Number of Employees for Establishments with 20 to 49 Employees
+      T001_009:       Number of Employees for Establishments with 50 to 99 Employees
+      T001_003:       Number of Employees for Establishments with 100 to 249 Employees
+      T001_007:       Number of Employees for Establishments with 250 to 499 Employees
+      T001_008:       Number of Employees for Establishments with 500 to 999 Employees
+      T001_002:       Number of Employees for Establishments with 1,000 Employees or More
+      T002_001:       Number of All Establishments for All Sectors
+      T002_005:       Number of Establishments with 1 to 4 Employees: Total for All Sectors
+      T002_010:       Number of Establishments with 5 to 9 Employees: Total for All Sectors
+      T002_004:       Number of Establishments with 10 to 19 Employees: Total for All Sectors
+      T002_006:       Number of Establishments with 20 to 49 Employees: Total for All Sectors
+      T002_009:       Number of Establishments with 50 to 99 Employees: Total for All Sectors
+      T002_003:       Number of Establishments with 100 to 249 Employees: Total for All Sectors
+      T002_007:       Number of Establishments with 250 to 499 Employees: Total for All Sectors
+      T002_008:       Number of Establishments with 500 to 999 Employees: Total for All Sectors
+      T002_002:       Number of Establishments with 1,000 Employees or More: Total for All Sectors
+      T600_001:       Flag: Number of Employees for All Establishments
+      T600_002:       Flag: Number of Employees for Establishments with 1 to 4 Employees
+      T600_003:       Flag: Number of Employees for Establishments with 5 to 9 Employees
+      T600_004:       Flag: Number of Employees for Establishments with 10 to 19 Employees
+      T600_005:       Flag: Number of Employees for Establishments with 20 to 49 Employees
+      T600_006:       Flag: Number of Employees for Establishments with 50 to 99 Employees
+      T600_007:       Flag: Number of Employees for Establishments with 100 to 249 Employees
+      T600_008:       Flag: Number of Employees for Establishments with 250 to 499 Employees
+      T600_009:       Flag: Number of Employees for Establishments with 500 to 999 Employees
+      T600_010:       Flag: Number of Employees for Establishments with 1,000 Employees or More
+      T003_001:       Total Annual Payroll: All Establishments
+      T003_005:       Total Annual Payroll for Establishments with 1 to 4 Employees
+      T003_010:       Total Annual Payroll for Establishments with 5 to 9 Employees
+      T003_004:       Total Annual Payroll for Establishments with 10 to 19 Employees
+      T003_006:       Total Annual Payroll for Establishments with 20 to 49 Employees
+      T003_009:       Total Annual Payroll for Establishments with 50 to 99 Employees
+      T003_003:       Total Annual Payroll for Establishments with 100 to 249 Employees
+      T003_007:       Total Annual Payroll for Establishments with 250 to 499 Employees
+      T003_008:       Total Annual Payroll for Establishments with 500 to 999 Employees
+      T003_002:       Total Annual Payroll for Establishments with 1,000 Employees or More
+      T800_001:       Flag: Total Annual Payroll: All Establishments
+      T800_002:       Flag: Total Annual Payroll for Establishments with 1 to 4 Employees
+      T800_003:       Flag: Total Annual Payroll for Establishments with 5 to 9 Employees
+      T800_004:       Flag: Total Annual Payroll for Establishments with 10 to 19 Employees
+      T800_005:       Flag: Total Annual Payroll for Establishments with 20 to 49 Employees
+      T800_006:       Flag: Total Annual Payroll for Establishments with 50 to 99 Employees
+      T800_007:       Flag: Total Annual Payroll for Establishments with 100 to 249 Employees
+      T800_008:       Flag: Total Annual Payroll for Establishments with 250 to 499 Employees
+      T800_009:       Flag: Total Annual Payroll for Establishments with 500 to 999 Employees
+      T800_010:       Flag: Total Annual Payroll for Establishments with 1,000 Employees or More
+      T1200_001:      Average Employee Wage: All Establishments
+      T1200_002:      Average Employee Wage for Establishments with 1 to 4 Employees
+      T1200_003:      Average Employee Wage for Establishments with 5 to 9 Employees
+      T1200_004:      Average Employee Wage for Establishments with 10 to 19 Employees
+      T1200_005:      Average Employee Wage for Establishments with 20 to 49 Employees
+      T1200_006:      Average Employee Wage for Establishments with 50 to 99 Employees
+      T1200_007:      Average Employee Wage for Establishments with 100 to 249 Employees
+      T1200_008:      Average Employee Wage for Establishments with 250 to 499 Employees
+      T1200_009:      Average Employee Wage for Establishments with 500 to 999 Employees
+      T1200_010:      Average Employee Wage for Establishments with 1,000 Employees or More
+      T004_001:       Total First Quarter Payroll for All Establishments
+      T004_005:       Total First Quarter Payroll for Establishments with 1 to 4 Employees
+      T004_010:       Total First Quarter Payroll for Establishments with 5 to 9 Employees
+      T004_004:       Total First Quarter Payroll for Establishments with 10 to 19 Employees
+      T004_006:       Total First Quarter Payroll for Establishments with 20 to 49 Employees
+      T004_009:       Total First Quarter Payroll for Establishments with 50 to 99 Employees
+      T004_003:       Total First Quarter Payroll for Establishments with 100 to 249 Employees
+      T004_007:       Total First Quarter Payroll for Establishments with 250 to 499 Employees
+      T004_008:       Total First Quarter Payroll for Establishments with 500 to 999 Employees
+      T004_002:       Total First Quarter Payroll for Establishments with 1,000 Employees or More
+      T1000_001:      Flag: Total First Quarter Payroll: All Establishments
+      T1000_002:      Flag: Total First Quarter Payroll for Establishments with 1 to 4 Employees
+      T1000_003:      Flag: Total First Quarter Payroll for Establishments with 5 to 9 Employees
+      T1000_004:      Flag: Total First Quarter Payroll for Establishments with 10 to 19 Employees
+      T1000_005:      Flag: Total First Quarter Payroll for Establishments with 20 to 49 Employees
+      T1000_006:      Flag: Total First Quarter Payroll for Establishments with 50 to 99 Employees
+      T1000_007:      Flag: Total First Quarter Payroll for Establishments with 100 to 249 Employees
+      T1000_008:      Flag: Total First Quarter Payroll for Establishments with 250 to 499 Employees
+      T1000_009:      Flag: Total First Quarter Payroll for Establishments with 500 to 999 Employees
+      T1000_010:      Flag: Total First Quarter Payroll for Establishments with 1,000 Employees or More
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2021
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12962778
+
+If you have any questions contact info@socialexplorer.com
